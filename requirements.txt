@@ -1,0 +1,32 @@
+# Core Data Handling
+numpy==1.26.4
+pandas==2.2.2
+
+# Geospatial Data Handling
+rasterio==1.3.9
+geopandas==0.14.3
+xarray==2024.3.0
+rioxarray==0.15.1
+shapely==2.0.4
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+folium==0.16.0  # For interactive map visualization
+
+# TensorFlow Deep Learning
+tensorflow==2.15.0
+tensorflow-hub==0.16.1  # For loading models from TF Hub if needed
+
+# Time Series Processing
+scipy==1.13.0  # For interpolation (e.g., CubicSpline)
+
+# Evaluation and Feature Engineering
+scikit-learn==1.4.2
+
+# Hugging Face GeoFM Integration
+transformers==4.41.2
+datasets==2.19.1
+
+# General Utility
+tqdm==4.66.4  # Progress bars for loops
